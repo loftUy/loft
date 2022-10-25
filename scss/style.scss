@@ -321,7 +321,10 @@ img {
     top: 0;
     left: 0;
     right: 0;
-    padding: 0.5em 2em;
+    padding-top:0.5em;
+    padding-left:0em;
+    padding-right:2em;
+    padding-bottom:0.5em;
     @include align-items(center);
     @include justify-content-between;
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.15);
